@@ -11,6 +11,8 @@ module.exports = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-mdx-gfm",
   ],
+  staticDirs: ['../public'],
+
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
